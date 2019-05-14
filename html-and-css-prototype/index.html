@@ -3,17 +3,149 @@
   <head>
     <meta charset="utf-8">
     <title>HTML/CSS Prototype</title>
-    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <link rel="stylesheet" href="stylesheet.css">
+<style>
+
+body{
+  font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+  	font-size: 1em;
+  	font-weight: bold;
+  }
+.caja { float:left;margin-left:0px;
+
+
+	}
+	#grande{
+	background-color:#F85306;
+	width:200px;
+	height:12px;
+
+	}
+	#chica{
+	 width:80px;
+	 height:9px;
+	 border-style: solid;
+	border-color:#eaeaea;
+	margin-right:0;
+	}
+	#wrapper {
+	width:282px;
+	margin:0 auto;
+	height:300px;
+	border-style: solid;
+	border-color:#E9F8F8;
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+	#text{
+	padding:10px;
+	text-align:center;
+
+
+	}
+	.grey{
+	text-align:left;
+	color:black;
+
+
+	}
+	.izq{
+	margin-left:10px;
+  	font-weight: bold;
+
+	}
+	input{
+	height:44px;
+	width:100px;
+	margin-left:20px;
+  font-weight: bold;
+  font-size:18px;
+
+
+	}
+	#green{
+	background-color:#51B427;
+	color:White;
+	width:100px;
+	margin-left:30px;
+	height:50px;
+	border: none;
+  font-weight: bold;
+border-bottom:30px;
+	}
+
+	.buttongrey{
+
+	width:130px;
+	margin-left:20px;
+	height:40px;
+	border: none;
+  font-weight: bold;
+ }
+
+	#why{
+	color:#13C2BB;
+	margin-left:20px;
+  font-style: italic;
+
+	}
+
+	.balloon{
+	border-radius: 2px;
+	background-color: #515757;
+	color: white;
+	padding: 10px;
+	width:268px;
+	margin:0 auto;
+	margin-botton:50px !important;
+	text-align:center;
+  	}
+
+.balloon:before {
+content:"";
+width: 0;
+height: 0;
+position: absolute;
+margin: 20px 0 0 200px;
+border-top: 15px solid #515757;
+border-right: 10px solid transparent;
+border-left: 10px solid transparent;
+
+}
+
+	#botonesfinales{
+	width:320px;
+	margin:0 auto;
+  color:#eaeaea;
+  font-weight: bold;
+
+
+  	}
+p{
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	color: #424242;
+	line-height: 1.5;
+}
+
+</style
+
   </head>
   <body>
-    <div class="container">
-      <h1>Recreate this using HTML &amp; CSS</h1>
-      <img src="https://s3.amazonaws.com/f.cl.ly/items/2z3C3Z0L2Q0R282p1V0z/Image%202014-12-19%20at%2010.07.09%20AM.png" width="303" />
-    </div>
 
-    <!-- Your code goes here -->
+	<div class="balloon">$167 still needed for this project</div>
+	<div id="wrapper">
+		<div class="caja" id="grande"></div>
+		<div id="text">
+		<p><spam style="color:#F85306"><b>Only tree days left </spam><spam class="grey">to fund this project</spam></p>
+		<p class="grey izq">Join the 42 other donors who have already supported this project. Every dollar helps.</p>
 
+		</div>
+		<input type="text" value="$ 50" ><button id="green">Give Now</button>
+
+  <p id="why"><br>Why Give $50?</p>
+	</div>
+	<div id="botonesfinales"><button class="buttongrey">Save for later</button><button class="buttongrey">Tell your friends</button></div>
 
 
   </body>
-</html>
+  </html>
